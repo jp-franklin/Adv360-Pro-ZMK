@@ -21,6 +21,75 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <59 62>;
+        };
+
+        at_right {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <59 74>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <59 73>;
+        };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <59 1>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <59 2>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <59 3>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <59 4>;
+        };
+
+        five {
+            bindings = <&kp N5>;
+            key-positions = <59 5>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <46 8>;
+        };
+
+        seven {
+            bindings = <&kp N7>;
+            key-positions = <46 9>;
+        };
+
+        eight {
+            bindings = <&kp N8>;
+            key-positions = <46 10>;
+        };
+
+        nine {
+            bindings = <&kp N9>;
+            key-positions = <46 11>;
+        };
+
+        zero {
+            bindings = <&kp N0>;
+            key-positions = <46 12>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -70,16 +139,6 @@
 
         extra1 {
             display-name = "Red";
-            status = "reserved";
-        };
-
-        extra2 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Cyan";
             status = "reserved";
         };
 
